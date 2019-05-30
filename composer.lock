@@ -344,6 +344,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
+                        "Tokenly\\Vault\\VaultServiceProvider::class,",
                         "Fideloper\\Proxy\\TrustedProxyServiceProvider"
                     ]
                 }
